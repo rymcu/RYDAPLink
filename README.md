@@ -144,6 +144,7 @@ DAPLINK的拖拽下载功能，是指只需要将编译好的.Hex或.Bin文件�
 
 官方源码可以从github仓库下载，官方一直在维护和更新，下载地址如下：
 [https://github.com/ARMmbed/DAPLink](https://github.com/ARMmbed/DAPLink)。下载后，将文件解压，记住文件路径不要包含中文字符，解压后源码目录如下图所示：
+
 ![源码下载目录.png](./images/1574862359862.png)
 
 ### Step3建立编译环境
@@ -192,11 +193,13 @@ git commit -m "layout"
 ![固件工程1.png](./images/1574862569346.png)
 
 到目前为止，便可以根据你自己的想法进行DIY了。DAPLink的功能详细介绍和使用方法可以参考百度网盘文档：
-**链接：[https://pan.baidu.com/s/1UrB2PPemmqqJzdAdFapPbA](https://pan.baidu.com/s/1UrB2PPemmqqJzdAdFapPbA) 提取码：x25j**
+> 链接：[https://pan.baidu.com/s/1UrB2PPemmqqJzdAdFapPbA](https://pan.baidu.com/s/1UrB2PPemmqqJzdAdFapPbA)  
+> 提取码：x25j
 
 电路板PCB工程开源如下，注意该工程本来是要设计离线DAP用的，中途项目暂缓，先将PCB工程开源出来（电路板验证过），DIY玩家可以自己行打样，移植的时候需要自行根据原理图结合程序更改IO口配置。
-工程下载链接：[RYDAPLink.epro](./pcb/1706016115353.epro)  原理图: 
 
-![](./images/SCH_RYDAPLink.png)
+> 工程下载链接：[RYDAPLink.epro](./pcb/1706016115353.epro)  
+> 原理图:  
+> ![SCH_RYDAPLink](./images/SCH_RYDAPLink.png)
 
 注意使用[立创 EDA](https://pro.lceda.cn/) 专业版导入工程即可使用。
